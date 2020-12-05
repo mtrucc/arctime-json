@@ -4,32 +4,34 @@
       "id": "turntableList",
       "data": [
         {
+          "id": 1,
           "name": "优惠劵1",
           "type": "coupon"
         },
         {
+          "id": 2,
           "name": "优惠劵2",
           "type": "coupon"
         },
         {
+          "id": 3,
           "name": "优惠劵3",
           "type": "coupon"
         },
         {
+          "id": 4,
           "name": "奖品1",
           "type": "prize"
         },
         {
+          "id": 5,
           "name": "奖品2",
           "type": "prize"
         },
         {
+          "id": 6,
           "name": "奖品3",
           "type": "prize"
-        },
-        {
-          "name": "谢谢参与",
-          "type": "none"
         }
       ]
     },
@@ -45,6 +47,11 @@
         "奖品2",
         "奖品3"
       ]
+    },
+    {
+      "id": "startDraw",
+      "drawInfo": 1,
+      "drawTitle": "自定义提示语"
     }
   ]
 }
