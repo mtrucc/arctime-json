@@ -2,56 +2,38 @@
   "posts": [
     {
       "id": "turntableList",
+      "status": 0,
+      "msg": "OK",
       "data": [
         {
-          "id": 1,
-          "name": "优惠劵1",
-          "type": "coupon"
+          "detail": "3折券",
+          "type": "quan"
         },
         {
-          "id": 2,
-          "name": "优惠劵2",
-          "type": "coupon"
+          "detail": "8折券",
+          "type": "quan"
         },
         {
-          "id": 3,
-          "name": "优惠劵3",
-          "type": "coupon"
-        },
-        {
-          "id": 4,
-          "name": "奖品1",
-          "type": "prize"
-        },
-        {
-          "id": 5,
-          "name": "奖品2",
-          "type": "prize"
-        },
-        {
-          "id": 6,
-          "name": "奖品3",
-          "type": "prize"
+          "detail": "1000积分",
+          "type": "jifen"
         }
       ]
     },
     {
       "id": "prizeList",
-      "couponList": [
-        "优惠劵1",
-        "优惠劵2",
-        "优惠劵3"
-      ],
-      "prizeList": [
-        "奖品1",
-        "奖品2",
-        "奖品3"
-      ]
+      "status": 0,
+      "msg": "抽奖成功！<br><img src=\"/Public/Home/images/icon-right.png\" width=\"32px\"><span style=\"color: #00b52b;font-size: 24px;margin-left: 15px;\">获得【8折券】</span>",
+      "data": {
+        "reward": "8折券"
+      }
     },
     {
       "id": "startDraw",
-      "drawInfo": 1,
-      "drawTitle": "自定义提示语"
+      "status": 0,
+      "msg": "抽奖成功！<br><img src=\"/Public/Home/images/icon-right.png\" width=\"32px\"><span style=\"color: #00b52b;font-size: 24px;margin-left: 15px;\">获得【8折券】</span>",
+      "data": {
+        "reward": "8折券"
+      }
     }
   ]
 }
