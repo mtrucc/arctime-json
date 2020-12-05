@@ -1,26 +1,46 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "turntableList",
+      "data": [
+        {
+          "name": "优惠劵1",
+          "type": "coupon"
+        },
+        {
+          "name": "优惠劵2",
+          "type": "coupon"
+        },
+        {
+          "name": "优惠劵3",
+          "type": "coupon"
+        },
+        {
+          "name": "奖品1",
+          "type": "prize"
+        },
+        {
+          "name": "奖品2",
+          "type": "prize"
+        },
+        {
+          "name": "奖品3",
+          "type": "prize"
+        }
+      ]
     },
     {
-      "id": "lucklyList",
-      "title": "hello"
-    },
-    {
-      "id": "test",
-      "title": {
-        "id": "test",
-        "title": "haha"
-      },
-      "other": {
-        "id": "test",
-        "title": "hello"
-      }
+      "id": "prizeList",
+      "couponList": [
+        "优惠劵1",
+        "优惠劵2",
+        "优惠劵3"
+      ],
+      "prizeList": [
+        "奖品1",
+        "奖品2",
+        "奖品3"
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
