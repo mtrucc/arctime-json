@@ -56,11 +56,66 @@
       ]
     },
     {
-      "id": "prizeList",
+      "id": "turntableListErr",
       "status": 0,
+      "msg": "0",
+      "data": [
+        {
+          "detail": "5折券",
+          "type": "quan"
+        },
+        {
+          "detail": "6折券",
+          "type": "quan"
+        },
+        {
+          "detail": "7.5折券",
+          "type": "quan"
+        },
+        {
+          "detail": "8.5折券",
+          "type": "quan"
+        },
+        {
+          "detail": "免单券",
+          "type": "quan"
+        },
+        {
+          "detail": "买一赠一券",
+          "type": "quan"
+        },
+        {
+          "detail": "500积分",
+          "type": "jifen"
+        },
+        {
+          "detail": "1000积分",
+          "type": "jifen"
+        },
+        {
+          "detail": "1500积分",
+          "type": "jifen"
+        },
+        {
+          "detail": "3000积分",
+          "type": "jifen"
+        },
+        {
+          "detail": "5000积分",
+          "type": "jifen"
+        },
+        {
+          "detail": "10000积分",
+          "type": "jifen"
+        }
+      ]
+    },
+    {
+      "id": "startDrawErr",
+      "status": 1,
       "msg": "抽奖成功！<br><img src=\"/Public/Home/images/icon-right.png\" width=\"32px\"><span style=\"color: #00b52b;font-size: 24px;margin-left: 15px;\">获得【8折券】</span>",
       "data": {
-        "reward": "8折券"
+        "reward": "null"
       }
     },
     {
